@@ -1,0 +1,23 @@
+:root{
+--header-hover-color: #94CFFF;
+--header-text-color: #FFF;
+--button-color: #0B0E66;
+--button-text-color: #26C6EA;
+--border-color: #000;
+--subtitle-color: #0A3853;
+--navi-text-color: #141414;
+}
+
+/* .container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid red;
+} */
+
+body{
+    font-family: Inter;
+}
+
