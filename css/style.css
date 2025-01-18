@@ -8,24 +8,90 @@
 --navi-text-color: #141414;
 }
 
-/* .container{
-    width: 1200px;
+.container{
+    width: 1056px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
     outline: 1px solid red;
-} */
+}
 
 body{
     font-family: Inter;
 }
 
-.time{
-    background-color: #000;
+.header-logo{
+    width: 186px;
+    height: 72px;
 }
 
-.time2{
-    background-color: #000;
+.header-link{
+    color: var(--header-text-color);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
 }
 
+.header-link:hover{
+    color: var(--header-hover-color);
+    font-weight: 600;
+}
+
+.header-btn{
+    width: 141px;
+    height: 41.694px;
+    color: var(--button-text-color);
+    font-family: HeadlandOne;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.25;
+    background-image: url(../images/button.webp);
+    border: none;
+}
+
+.header-text{
+    color: var(--header-text-color);
+    font-family: "Hammersmith One";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.hero-text{
+    width: 298px;
+    height: 96px;
+    color: var(--header-text-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.hero-img{
+    width: 152px;
+    height: 40px;
+    border: 1px solid #000;
+}
+
+.hero-tex{
+    width: 376px;
+    height: 123px;
+    color: var(--header-text-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.hero-btn{
+    width: 199px;
+    color: var(--button-text-color);
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.25;
+    width: 260px;
+    height: 80px;
+    border-radius: 45px 0px;
+    border: 3px solid var(--button-text-color);
+    background: var(--button-color);
+}
