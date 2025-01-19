@@ -2,7 +2,7 @@
 --header-hover-color: #94CFFF;
 --header-text-color: #FFF;
 --button-color: #0B0E66;
---button-text-color: #26C6EA;
+--button-text-color: #26C7EA;
 --border-color: #000;
 --subtitle-color: #0A3853;
 --navi-text-color: #141414;
@@ -19,6 +19,13 @@
 
 body{
     font-family: Inter;
+}
+
+.header{
+    background-image:linear-gradient(#2B4A61DE, #2B4A61DE), url(../images/header.png);
+    width: 1440px;
+    height: 150px;
+    border-bottom: 3px solid var(--header-text-color);
 }
 
 .header-logo{
@@ -58,6 +65,12 @@ body{
     line-height: 1.25;
 }
 
+.hero{
+    background-image: url(../images/avatar.png);
+    width: 1440px;
+    height: 740px;
+}
+
 .hero-text{
     width: 298px;
     height: 96px;
@@ -94,4 +107,106 @@ body{
     border-radius: 45px 0px;
     border: 3px solid var(--button-text-color);
     background: var(--button-color);
+}
+
+.hero-foto{
+    width: 30px;
+    height: 30px;
+    fill: var(--header-text-color);
+}
+
+.bkt-subtitle{
+    color: var(--subtitle-color);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.22;
+}
+
+.bkt-cite{
+    color: var(--border-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.20;
+}
+
+.bkt-img{
+    width: 400px;
+    height: 120px; 
+}
+
+.trailer{
+    background-image: url(../images/character.webp);
+    width: 1440px;
+    height: 741px;
+}
+
+.trailer-btn{
+    color: var(--button-text-color);
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.25;
+    width: 260px;
+    height: 80px;
+    border-radius: 45px 0px;
+    border: 3px solid var(--button-text-color);
+    background: var(--button-color);
+}
+
+.navi{
+    background-image: url(../images/mountains.png);
+    width: 1440px;
+    height: 704px;
+}
+
+.navi-subtitle{
+    color: var(--navi-text-color);
+    font-family: HeadlandOne;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.navi-text{
+    color: var(--navi-text-color);
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.navi-img{
+    width: 152px;
+    height: 40px;
+}
+
+.footer{
+    background-image: url(../images/footer.png);
+    width: 1440px;
+    height: 223px;
+}
+
+.footer-logo{
+    width: 183px;
+    height: 70px;
+}
+
+.footer-br{
+    width: 2px;
+    height: 153px;
+    background: var(--header-text-color);
+}
+
+.footer-item{
+    color: var(--header-text-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.footer-text{
+    color: var(--header-text-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.21;
 }
