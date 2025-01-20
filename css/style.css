@@ -23,9 +23,11 @@ body{
 
 .header{
     background-image:linear-gradient(#2B4A61DE, #2B4A61DE), url(../images/header.png);
-    width: 1440px;
-    height: 150px;
     border-bottom: 3px solid var(--header-text-color);
+    background-repeat: no-repeat;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    height: 150px;
 }
 
 .header-logo{
@@ -67,8 +69,9 @@ body{
 
 .hero{
     background-image: url(../images/avatar.png);
-    width: 1440px;
-    height: 740px;
+    background-repeat: no-repeat;
+    padding-top: 180px;
+    padding-bottom: 179px;
 }
 
 .hero-text{
@@ -115,6 +118,11 @@ body{
     fill: var(--header-text-color);
 }
 
+.bkt{
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
+
 .bkt-subtitle{
     color: var(--subtitle-color);
     font-size: 36px;
@@ -136,8 +144,9 @@ body{
 
 .trailer{
     background-image: url(../images/character.webp);
-    width: 1440px;
-    height: 741px;
+    background-repeat: no-repeat;
+    padding-top: 330px;
+    padding-bottom: 331px;
 }
 
 .trailer-btn{
@@ -155,8 +164,9 @@ body{
 
 .navi{
     background-image: url(../images/mountains.png);
-    width: 1440px;
-    height: 704px;
+    background-repeat: no-repeat;
+    padding-top: 58px;
+    padding-bottom: 57px;
 }
 
 .navi-subtitle{
@@ -182,8 +192,9 @@ body{
 
 .footer{
     background-image: url(../images/footer.png);
-    width: 1440px;
-    height: 223px;
+    background-repeat: no-repeat;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .footer-logo{
