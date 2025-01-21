@@ -27,7 +27,6 @@ body{
     background-repeat: no-repeat;
     padding-top: 39px;
     padding-bottom: 39px;
-    height: 150px;
 }
 
 .header-logo{
@@ -76,7 +75,6 @@ body{
 
 .hero-text{
     width: 298px;
-    height: 96px;
     color: var(--header-text-color);
     font-size: 20px;
     font-weight: 400;
@@ -86,7 +84,6 @@ body{
 .hero-img{
     width: 152px;
     height: 40px;
-    border: 1px solid #000;
 }
 
 .hero-tex{
@@ -123,7 +120,7 @@ body{
     padding-bottom: 10px;
 }
 
-.bkt-subtitle{
+.bkt-text{
     color: var(--subtitle-color);
     font-size: 36px;
     font-weight: 400;
@@ -147,6 +144,7 @@ body{
     background-repeat: no-repeat;
     padding-top: 330px;
     padding-bottom: 331px;
+    text-align: center;
 }
 
 .trailer-btn{
