@@ -22,9 +22,11 @@ body{
 }
 
 .header{
-    background-image:linear-gradient(#2B4A61DE, #2B4A61DE), url(../images/header.png);
+    background-image:linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../images/bgh.png);
     border-bottom: 3px solid var(--header-text-color);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 39px;
     padding-bottom: 39px;
 }
