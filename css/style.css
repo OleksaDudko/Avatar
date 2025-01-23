@@ -31,9 +31,21 @@ body{
     padding-bottom: 39px;
 }
 
+.header-div{
+    display: flex;
+    align-items: center;
+}
+
 .header-logo{
     width: 186px;
     height: 72px;
+    margin-right: 168px;
+}
+
+.header-list{
+    display: flex;
+    gap: 38px;
+    margin-right: 212px;
 }
 
 .header-link{
@@ -49,6 +61,9 @@ body{
 }
 
 .header-btn{
+    border-radius: 45px 0px;
+    border: 2px solid var(--button-text-color);
+    background: var(--button-color);
     width: 141px;
     height: 41.694px;
     color: var(--button-text-color);
@@ -56,8 +71,12 @@ body{
     font-size: 20px;
     font-weight: 400;
     line-height: 1.25;
-    background-image: url(../images/button.webp);
-    border: none;
+    margin-right: 49px;
+}
+
+.header-items{
+    display: flex;
+    gap: 10px;
 }
 
 .header-text{
@@ -71,8 +90,16 @@ body{
 .hero{
     background-image: url(../images/avatar.png);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 180px;
     padding-bottom: 179px;
+}
+
+.hero-div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 42px;
 }
 
 .hero-text{
@@ -86,6 +113,7 @@ body{
 .hero-img{
     width: 152px;
     height: 40px;
+    margin-left: 52px;
 }
 
 .hero-tex{
@@ -109,6 +137,12 @@ body{
     border-radius: 45px 0px;
     border: 3px solid var(--button-text-color);
     background: var(--button-color);
+}
+
+.hero-list{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .hero-foto{
@@ -144,6 +178,8 @@ body{
 .trailer{
     background-image: url(../images/character.webp);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 330px;
     padding-bottom: 331px;
     text-align: center;
@@ -165,6 +201,8 @@ body{
 .navi{
     background-image: url(../images/mountains.png);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 58px;
     padding-bottom: 57px;
 }
@@ -191,8 +229,10 @@ body{
 }
 
 .footer{
-    background-image: url(../images/footer.png);
+    background-image:linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../images/bgh.png);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 35px;
     padding-bottom: 35px;
 }
