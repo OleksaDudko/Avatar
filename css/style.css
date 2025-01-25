@@ -110,7 +110,7 @@ body{
 .hero-div{
     display: flex;
     flex-direction: column;
-    margin-bottom: 42px;
+   
 }
 
 .hero-text{
@@ -134,6 +134,7 @@ body{
     font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
+    margin-bottom: 42px;
 }
 
 .hero-btn{
@@ -143,11 +144,15 @@ body{
     font-size: 24px;
     font-weight: 400;
     line-height: 1.25;
-    width: 260px;
     height: 80px;
     border-radius: 45px 0px;
     border: 3px solid var(--button-text-color);
     background: var(--button-color);
+    /* padding: 10px 30px 10px 31px; */
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 31px;
 }
 
 .hero-list{
@@ -165,7 +170,16 @@ body{
 .hero-foto{
     width: 30px;
     height: 30px;
-    /* fill: var(--header-text-color); */
+}
+
+.hero-twitter{
+    width: 34px;
+    height: 30px;
+}
+
+.hero-youtube{
+    width: 50px;
+    height: 30px;
 }
 
 .bkt{
@@ -176,7 +190,6 @@ body{
 .bkt-div{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -186,6 +199,14 @@ body{
     font-weight: 400;
     line-height: 1.22;
 }
+
+.bkt-words{
+    color: var(--subtitle-color);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.22;
+}
+
 
 .bkt-cite{
     color: var(--border-color);
@@ -222,6 +243,20 @@ body{
     background: var(--button-color);
 }
 
+.block-text{
+    color: var(--subtitle-color);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.22;
+}
+
+.block-words{
+    color: var(--subtitle-color);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.22;
+}
+
 .navi{
     background-image: url(../images/mountains.png);
     background-repeat: no-repeat;
@@ -237,6 +272,26 @@ body{
     font-size: 32px;
     font-weight: 400;
     line-height: 1.25;
+    margin-left: 376px;
+}
+
+.navi-list{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 36px;
+}
+
+.navi-item{
+    background-color: rgba(255, 255, 255, 0.70);
+    width: 320px;
+    height: 240px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .navi-text{
@@ -252,6 +307,20 @@ body{
     height: 40px;
 }
 
+.quote-text{
+    color: var(--subtitle-color);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.22;
+}
+
+.quote-words{
+    color: var(--subtitle-color);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.22;
+}
+
 .footer{
     background-image:linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../images/bgh.png);
     background-repeat: no-repeat;
@@ -261,15 +330,27 @@ body{
     padding-bottom: 35px;
 }
 
+.footer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer-logo{
     width: 183px;
     height: 70px;
+    margin-right: 160px;
 }
 
 .footer-br{
     width: 2px;
     height: 153px;
     background: var(--header-text-color);
+    flex-direction: column;
+}
+
+.footer-list{
+    gap: 16px;
 }
 
 .footer-item{
@@ -277,6 +358,10 @@ body{
     font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
+}
+
+.footer-list:nth-child(2){
+    padding-bottom: 37px;
 }
 
 .footer-text{
