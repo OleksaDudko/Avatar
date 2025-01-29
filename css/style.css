@@ -127,9 +127,8 @@ body{
     margin-left: 52px;
 }
 
-.hero-tex{
-    width: 376px;
-    height: 123px;
+.hero-words{
+    width: 340px;
     color: var(--header-text-color);
     font-size: 20px;
     font-weight: 400;
@@ -138,7 +137,7 @@ body{
 }
 
 .hero-btn{
-    width: 199px;
+    width: 260px;
     color: var(--button-text-color);
     font-family: HeadlandOne;
     font-size: 24px;
@@ -148,11 +147,7 @@ body{
     border-radius: 45px 0px;
     border: 3px solid var(--button-text-color);
     background: var(--button-color);
-    /* padding: 10px 30px 10px 31px; */
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 31px;
+    padding: 10px 30px 10px 31px;
 }
 
 .hero-list{
@@ -188,6 +183,12 @@ body{
 }
 
 .bkt-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bkt-quote{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -266,13 +267,19 @@ body{
     padding-bottom: 57px;
 }
 
+.navi-div{
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+
 .navi-subtitle{
     color: var(--navi-text-color);
     font-family: HeadlandOne;
     font-size: 32px;
     font-weight: 400;
     line-height: 1.25;
-    margin-left: 376px;
 }
 
 .navi-list{
@@ -339,18 +346,28 @@ body{
 .footer-logo{
     width: 183px;
     height: 70px;
-    margin-right: 160px;
+    margin-right: 80px;
 }
 
-.footer-br{
+.footer-hr{
     width: 2px;
     height: 153px;
     background: var(--header-text-color);
     flex-direction: column;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.footer-box{
+    margin-left: 80px;
+    margin-top: 80px;
 }
 
 .footer-list{
+    display: flex;
+    flex-direction: column;
     gap: 16px;
+    margin-bottom: 37px;
 }
 
 .footer-item{
@@ -360,13 +377,10 @@ body{
     line-height: 1.2;
 }
 
-.footer-list:nth-child(2){
-    padding-bottom: 37px;
-}
-
 .footer-text{
     color: var(--header-text-color);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.21;
+    text-align: center;
 }
