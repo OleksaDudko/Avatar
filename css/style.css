@@ -84,12 +84,18 @@ body{
     transform: translateY(-50%);
 }
 
-.header-text{
+.header-pages{
     color: var(--header-text-color);
     font-family: "Hammersmith One";
     font-size: 16px;
     font-weight: 400;
     line-height: 1.25;
+    border-radius: 45px 0px;
+    border: 2px solid var(--button-text-color);
+    background: var(--button-color);
+    width: 462674527645276452px;
+    height: 41.694px;
+    color: var(--button-text-color);
 }
 
 .hero{
@@ -280,6 +286,7 @@ body{
     font-size: 32px;
     font-weight: 400;
     line-height: 1.25;
+    margin-bottom: 45px;
 }
 
 .navi-list{
@@ -299,6 +306,7 @@ body{
     flex-direction: column;
     padding-top: 40px;
     padding-bottom: 40px;
+    gap: 40px;
 }
 
 .navi-text{
