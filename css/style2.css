@@ -47,7 +47,7 @@
     .header-list{
         display: flex;
         gap: 38px;
-        margin-right: 212px;
+        margin-right: 243px;
     }
     
     .header-link{
@@ -80,7 +80,7 @@
         gap: 10px;
         position: absolute;
         top: 50%;
-        right: -100px;  
+        right: -200px;  
         transform: translateY(-50%);
     }
     
@@ -93,9 +93,7 @@
         border-radius: 45px 0px;
         border: 2px solid var(--button-text-color);
         background: var(--button-color);
-        width: 462674527645276452px;
-        height: 41.694px;
-        color: var(--button-text-color);
+        padding: 10px 20px;
     }
     
     .hero{
@@ -156,13 +154,13 @@
         padding: 10px 30px 10px 31px;
     }
     
-    .hero-list{
+     .hero-list{
         display: flex;
         flex-direction: column;
         gap: 25px;
-        justify-content: flex-end;
+        align-items: end;
     }
-    
+     
     .hero-button{
         background-color: transparent;
         border: none;
