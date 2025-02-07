@@ -201,7 +201,7 @@ body{
     font-size: 36px;
     font-weight: 400;
     line-height: 1.22;
-    padding-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 .bkt-words{
@@ -209,7 +209,7 @@ body{
     font-size: 36px;
     font-weight: 400;
     line-height: 1.22;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 
@@ -218,7 +218,7 @@ body{
     font-size: 24px;
     font-weight: 400;
     line-height: 1.20;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .bkt-img{
@@ -254,7 +254,7 @@ body{
     font-size: 36px;
     font-weight: 400;
     line-height: 1.22;
-    padding-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 .block-words{
@@ -262,7 +262,7 @@ body{
     font-size: 36px;
     font-weight: 400;
     line-height: 1.22;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .navi{
@@ -336,7 +336,7 @@ body{
     font-size: 36px;
     font-weight: 400;
     line-height: 1.22;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .footer{
@@ -345,7 +345,7 @@ body{
     background-position: center;
     background-size: cover;
     padding-top: 35px;
-    padding-bottom: 35px;
+    margin-bottom: 35px;
 }
 
 .footer-div{
