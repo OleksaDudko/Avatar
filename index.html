@@ -11,13 +11,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <header class="header" id="qwerty">
     <div class="container header-div">
-    <a href="#"><img src="./images/logo.webp" alt="лого сайту" class="header-logo"></a>
+    <a href="#"><img src="./images/logo.webp" alt="лого сайту" class="header-logo animate__animated animate__bounceInDown"></a>
     <nav class="header-nav">
     <ul class="header-list">
       <li class="header-item"><a href="" class="header-link">Головна</a></li>
@@ -25,7 +30,7 @@
       <li class="header-item"><a href="" class="header-link">Контакти</a></li>
     </ul>
   </nav>
-    <button type="button" class="header-btn">Увійти</button>
+    <button type="button" class="header-btn animate__animated animate__bounce animate__infinite animate__slow">Увійти</button>
     <ul class="header-items">
       <li class="header-element"><a href="./pages/english.html" class="header-pages">ENG</a></li>
       <li class="header-element"><a href="./index.html" class="header-pages">UA</a></li>
@@ -37,14 +42,14 @@
     <section class="hero">
       <div class="container">
        <div class="hero-div">
-        <p class="hero-text">
+        <p class="hero-text animate__animated animate__bounceInLeft">
         Oe perlltxe hu tsamsiyu!
         Ngari hu Eywa salew tirea, 
         tokx 'ì'awn slu Na'viyä hapxì.
         Säwem nìayoeng!
         </p>
         <img src="./images/arrow.webp" alt="стріла" class="hero-img">
-        <p class="hero-words">
+        <p class="hero-words animate__animated animate__bounceInRight">
         Хоробрий воїне, звертаюсь до тебе!
         Твій дух йде з Ейвою, <br>
         твоє тіло залишається, <br>
@@ -62,13 +67,13 @@
     </section>
     <!-- секція з висловом -->
     <section class="bkt">
-      <div class="container bkt-div" >
+      <div class="container bkt-div" data-aos="fade-up">
         <blockquote class="bkt-quote">
           <p class="bkt-text">“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ </p>
           <p class="bkt-words"> ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”</p>
           <cite class="bkt-cite">Джейк Саллі</cite>
            </blockquote>
-           <img src="./images/bird.webp" alt="птах з стрілами" class="bkt-img">
+           <img src="./images/bird.webp" alt="птах з стрілами" class="bkt-img" data-aos="fade-up">
       </div>
     </section>
     <!-- Дивитись трейлер -->
@@ -79,13 +84,13 @@
       </section>
     <!-- секція з висловом -->
     <section class="bkt">
-      <div class="container bkt-div">
+      <div class="container bkt-div" data-aos="fade-up">
         <blockquote class="bkt-quote">
           <p class="block-text">“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ</p>
           <p class="block-words">ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</p>
           <cite class="bkt-cite">Джейк Саллі</cite>
           </blockquote>
-          <img src="./images/bird.webp" alt="птах з стрілами" class="bkt-img">
+          <img src="./images/bird.webp" alt="птах з стрілами" class="bkt-img" data-aos="fade-up">
       </div>
     </section>
     <!-- Вчимо мову На’ві -->
@@ -129,12 +134,12 @@
     <!-- секція з висловом -->
     <section class="bkt">
       <div class="container bkt-div">
-        <blockquote class="bkt-quote">
+        <blockquote class="bkt-quote" data-aos="fade-up">
           <p class="quote-text">“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,</p>
           <p class="quote-words">ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</p>
           <cite class="bkt-cite">Нейтірі</cite>
           </blockquote>
-          <img src="./images/bird.webp" alt="птах з стрілами" class="bkt-img">
+          <img src="./images/bird.webp" alt="птах з стрілами" class="bkt-img" data-aos="fade-up">
       </div>
     </section>
   </main>
@@ -154,5 +159,9 @@
     <use href="./images/symbol-defs.svg#icon-arrow-up"></use>
   </svg></a>
   </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
